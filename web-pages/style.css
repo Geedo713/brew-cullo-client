@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-section {
+    height: 15vh;
+}
+
+.i-frame {
+    display: none;
+}
+
+.shop-main {
+    display: grid;
+}
+
+figure {
+    border: 1px solid black;
+}
+
+footer {
+    height: 30vh;
+}
