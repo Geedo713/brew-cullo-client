@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+
+
 }
 
 ul {
     list-style: none;
+    line-height: 50px;
 }
 
 ul a {
@@ -23,8 +27,10 @@ ul a {
     display: grid;
 }
 
-figure {
+img {
     border: 1px solid black;
+    height: 200px;
+    width: 200px;
 }
 
 footer {

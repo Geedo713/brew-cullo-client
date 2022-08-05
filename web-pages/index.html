@@ -5,6 +5,9 @@
         <meta>
         <title>Site Under Construction</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1>This Site is Under Construction</h1>
@@ -27,10 +30,10 @@
                 All esteem to the Source.</p>
         </main>
         <div class="form-div">
-            <form onsubmit="return redirectCall()" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScoKGZPnyMJaKjrSDFV8ve7ISCasT0TsRwyM1a7YqVcHq0tXQ/formResponse" id="contact_form" target="hidden_iframe" method="POST" name="contact-form">
+            <form onsubmit="redirectCall(); reset();" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdTzBWSyLRveTza92yruPklLZg72FF8THYGs2gtx17pKgOfZg/formResponse" id="contactForm" target="hidden_iframe" method="POST" name="contact-form">
                 <iframe class="i-frame" name="hidden_iframe">Loading…</iframe>
-                <input name="entry.1338914064" type="text" id="name" placeholder="Name" required><br>
-                <input name="entry.1920391577" type="email" id="email" placeholder="Email" required><br>
+                <input name="entry.249204045" type="email" id="email" placeholder="Email" required><br>
+                <input name="entry.451499246" type="number" id="phone" placeholder="(xxx)-xxx-xxxx" required><br>
                 <button data-submit="...Sending" onsubmit="redirectCall()" id="submit" type="submit">Submit</button>
             </form>
         </div>
