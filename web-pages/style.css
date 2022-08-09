@@ -1,8 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Barlow', sans-serif;
-
-
+    font-family: 'Righteous', cursive;
 }
 
 ul {
@@ -28,7 +26,6 @@ ul a {
 }
 
 img {
-    border: 1px solid black;
     height: 200px;
     width: 200px;
 }
