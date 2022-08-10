@@ -13,6 +13,30 @@ ul a {
     color: black;
 }
 
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+#contactForm {
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+   line-height: 40px;
+   background: black;
+}
+
+input {
+    width: 100%;
+    color: white;
+    border: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: none;
+}
+
 .social-section {
     height: 15vh;
 }
@@ -31,5 +55,18 @@ img {
 }
 
 footer {
-    height: 30vh;
+    height: 40vh;
+}
+
+iframe {
+    width: 300px;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-div {
+    text-align: center;
 }
