@@ -2,6 +2,7 @@ const form = document.getElementById("contactForm");
 const emailInput = document.getElementById("email");
 const phoneInput = document.getElementById("phone");
 const submitBtn = document.getElementById("submit");
+const landingBtn = document.getElementById("landingBtn");
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzBi86FgtMDh3Zftm-vPRIsOyjeeZdUMstVxNq_k4rg3XQhJLY_C6nTR4U83nhAvEc/exec'
 
    form.addEventListener('submit', e => {
