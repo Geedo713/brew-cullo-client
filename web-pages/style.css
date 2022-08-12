@@ -65,6 +65,7 @@ button {
     width: 100%;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 35px;
     line-height: 40px;
     background: linear-gradient(black, rgba(0, 0, 0, 0.596));
 }
@@ -91,7 +92,22 @@ input {
 }
 
 .social-section {
-    height: 15vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.596), rgba(204, 28, 110, 0.075));
+    border: none;
+    height: 25vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    display: flex;
+    
+}
+
+#socialBtn {
+    border: none;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
 }
 
 .i-frame {
