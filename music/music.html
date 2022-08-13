@@ -16,7 +16,7 @@
         <style>
             .trackbar { background: #DDD; height: 50px; font-family: 'Righteous', cursive;}
             .trackbar:nth-child(even) {background: #EEE;}
-            .playbutton { opacity: .8; display: block; float: left; width: 19px; height: 22px; margin: 14px 0px 0px 14px; background: url("Untitled_Artwork.PNG")
+            .playbutton { opacity: .8; display: block; float: left; width: 30px; height: 30px; margin: 14px 0px 0px 14px; background: url(icons8-play-24.png)
                 no-repeat; border: none; cursor: pointer; outline: none; }
             .playbutton:hover { opacity: 1; }
             .trackname { float: left; color: #000; margin: 12px 0px 0px 14px; font-size: 20px; font-weight: bold; }
@@ -25,6 +25,75 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <script>
+            function _(id) {
+             return  document.getElementById(id); 
+            }
+
+            function audioApp() {
+                var audio = new Audio();
+                var audio_folder = "/music";
+                var audio_ext = ".mp3";
+                var audio_index = 1;
+                var is_playing = false;
+                var playingtrack;
+                var trackbox = _("trackbox");
+                var tracks = {
+                    "track1": ["AZ", "AZ-Cullo (Master New)"],
+                    "track2": ["Frequency", "Frequency"],
+                    "track3": ["Recession", "Recession"],
+                    "track4": ["APTTMH", "APTTMH"],
+                    "track5": ["Indigo", "Indigo x Cullo"],
+                    "track6": ["Shabbat Shalom", "Shabbat Shalom"],
+                    "track7": ["TD Jakes", "TD Jakes"],
+                    "track8": ["Testimony", "Testimony"],
+                    "track9": ["War Wounds", "War Wounds"]
+                };
+                for (var track in tracks) {
+                    var tb = document.createElement("div");
+                    var pb = document.createElement("button");
+                    var tn = document.createElement("div");
+                    tb.className = "trackbar";
+                    pb.className = "playbutton";
+                    tn.className = "trackname";
+                    tn.innerHTML = audio_index + ". " + tracks[track][0];
+                    pb.id = tracks[track][1];
+                    pb.addEventListener('click', switchTrack);
+                    tb.appendChild(pb);
+                    tb.appendChild(tn);
+                    trackbox.appendChild(tb);
+                    audio_index ++;
+                }
+                audio.addEventListener("ended", function() {
+                    _(playingtrack).style.background = "url(icons8-play-24.png)";
+                    playingtrack = "";
+                });
+                function switchTrack(event) {
+                   if(is_playing) {
+                    if(playingtrack != event.target.id) {
+                        is_playing = true;
+                        _(playingtrack).style.background = "url(icons8-play-24.png)";
+                        event.target.style.background = "url(icons8-pause-24.png)";
+                        audio.src = audio_folder + event.target.id + audio_ext;
+                        audio.play();
+                    } else {
+                        audio.pause();
+                        is_playing = false;
+                        event.target.style.background = "url(icons8-play-24.png)";
+                    }
+                   } else {
+                    is_playing = true;
+                    event.trigger.style.background = "url(icons8-pause-24.png)";
+                    if (playingtrack != event.target.id) {
+                        audio.src = audio_folder + event.target.id + audio_ext;
+                    }
+                    audio.play();
+                   } 
+                   playingtrack = event.target.id;
+                }
+            }
+            window.addEventListener('load', audioApp);
+        </script>
 </head>
     <body>
         <h1>This needs to be heard!</h1>
@@ -75,57 +144,5 @@
             <div class="credits-div">
                 <span>Jalloh Web Constructed</span>
                 </div>
-                <script>
-                    function _(id) {
-                     return  document.getElementById(id); 
-                    }
-
-                    function audioApp() {
-                        var audio = new Audio();
-                        var audio_folder = "audio/";
-                        var audio_ext = ".mp3";
-                        var audio_index = 1;
-                        var is_playing = false;
-                        var playingtrack;
-                        var trackbox = _("trackbox");
-                        var tracks = {
-                            "track1": ["Fast Lane", "fast_lane" ],
-                            "track2": ["Breathe", "breathe"],
-                            "track3": ["Stranglehold", "stranglehold"]
-                        };
-                        for (var track in tracks) {
-                            var tb = document.createElement("div");
-                            var pb = document.createElement("button");
-                            var tn = document.createElement("div");
-                            tb.className = "trackbar";
-                            pb.className = "playbutton";
-                            tn.className = "trackname";
-                            tn.innerHTML = audio_index + ". " + tracks[track][0];
-                            pb.id = tracks[track][1];
-                            pb.addEventListener('click', switchTrack);
-                            tb.appendChild(pb);
-                            tb.appendChild(tn);
-                            trackbox.appendChild(tb);
-                            audio_index ++;
-                        }
-                        audio.addEventListener("ended", function() {
-                            _(playingtrack).style.background = "url(blue-cowboy-one.JPEG)";
-                            playingtrack = "";
-                        });
-                        function switchTrack(event) {
-                           if(is_playing) {
-                            if(playingtrack != event.target.id) {
-                                is_playing = true;
-                                _(playingtrack).style.background = "url(Untitled_Artwork.PNG)";
-                                event.target.style.background = "url(panther-pic.JPEG)";
-                                audio.src = audio_folder + event.target.id + audio_ext;
-                            }
-                            audio.play();
-                           } 
-                           playingtrack = event.target.id;
-                        }
-                    }
-                    window.addEventListener('load', audioApp);
-                </script>
     </body>
 </html>
