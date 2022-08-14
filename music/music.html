@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="style.css">
         <style>
             .trackbar { background: #DDD; height: 50px; font-family: 'Righteous', cursive;}
-            .trackbar:nth-child(even) {background: #EEE;}
+            .trackbar:nth-child(event) {background: #EEE;}
             .playbutton { opacity: .8; display: block; float: left; width: 30px; height: 30px; margin: 14px 0px 0px 14px; background: url(icons8-play-24.png)
                 no-repeat; border: none; cursor: pointer; outline: none; }
             .playbutton:hover { opacity: 1; }
@@ -32,9 +32,9 @@
 
             function audioApp() {
                 var audio = new Audio();
-                var audio_folder = "/music";
+                var audio_folder = "\Users\TDomain\Desktop\brew-cullo-client\music";
                 var audio_ext = ".mp3";
-                var audio_index = 1;
+               var audio_index = "1";
                 var is_playing = false;
                 var playingtrack;
                 var trackbox = _("trackbox");
@@ -49,6 +49,7 @@
                     "track8": ["Testimony", "Testimony"],
                     "track9": ["War Wounds", "War Wounds"]
                 };
+                console.log(audio_folder);
                 for (var track in tracks) {
                     var tb = document.createElement("div");
                     var pb = document.createElement("button");
@@ -83,7 +84,7 @@
                     }
                    } else {
                     is_playing = true;
-                    event.trigger.style.background = "url(icons8-pause-24.png)";
+                    event.target.style.background = "url(icons8-pause-24.png)";
                     if (playingtrack != event.target.id) {
                         audio.src = audio_folder + event.target.id + audio_ext;
                     }
@@ -92,7 +93,7 @@
                    playingtrack = event.target.id;
                 }
             }
-            window.addEventListener('load', audioApp);
+        window.addEventListener('load', audioApp);
         </script>
 </head>
     <body>
