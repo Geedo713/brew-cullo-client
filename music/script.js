@@ -85,7 +85,7 @@ let allTracks = [
 //function load the track
 function loadTrack(indexNum) {
      clearInterval(timer);
-    // resetSlider();
+     resetSlider();
      track.src = allTracks[indexNum].path;
      title.src = allTracks[indexNum].name;
      trackImg.src = allTracks[indexNum].img;
@@ -99,6 +99,11 @@ function loadTrack(indexNum) {
      timer = setInterval(rangeSlider, 1000);
 }
 loadTrack(indexNum);
+
+//reset song slider
+function resetSlider() {
+     durationSlider.value = 0;
+}
 
 //checking if the song is playing or not
 function justPlay() {
@@ -192,8 +197,9 @@ function rangeSlider() {
 //function will run when the song is over
 if (track.ended) {
      play.innerHTML = '<i class="fa-solid fa-play"></i>';
-     if (autoplay == true) {
+     if (autoplay == 1) {
           indexNum += 1;
+          loadTrack(indexNum);
           playSong();
      }
 }
