@@ -13,96 +13,55 @@
         <meta name="twitter:description" content="Loyalty over gold is where you can find the latest Israelite music and apparel. Buy Apparel and  tell the world what needs to be heard just a few clicks. Subscribe to our email list and become committed to the mission!">
         <title>Hebreware & Music - Loyalty Over Gold</title>
         <link rel="stylesheet" href="style.css">
-        <style>
-            .trackbar { background: #DDD; height: 50px; font-family: 'Righteous', cursive;}
-            .trackbar:nth-child(event) {background: #EEE;}
-            .playbutton { opacity: .8; display: block; float: left; width: 30px; height: 30px; margin: 14px 0px 0px 14px; background: url(icons8-play-24.png)
-                no-repeat; border: none; cursor: pointer; outline: none; }
-            .playbutton:hover { opacity: 1; }
-            .trackname { float: left; color: #000; margin: 12px 0px 0px 14px; font-size: 20px; font-weight: bold; }
-        </style>
         <link rel="icon" href="panther-icon-music.PNG">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-        <script>
-            function _(id) {
-             return  document.getElementById(id); 
-            }
-
-            function audioApp() {
-                var audio = new Audio();
-                var audio_folder = "\Users\TDomain\Desktop\brew-cullo-client\music";
-                var audio_ext = ".mp3";
-               var audio_index = "1";
-                var is_playing = false;
-                var playingtrack;
-                var trackbox = _("trackbox");
-                var tracks = {
-                    "track1": ["AZ", "AZ-Cullo (Master New)"],
-                    "track2": ["Frequency", "Frequency"],
-                    "track3": ["Recession", "Recession"],
-                    "track4": ["APTTMH", "APTTMH"],
-                    "track5": ["Indigo", "Indigo x Cullo"],
-                    "track6": ["Shabbat Shalom", "Shabbat Shalom"],
-                    "track7": ["TD Jakes", "TD Jakes"],
-                    "track8": ["Testimony", "Testimony"],
-                    "track9": ["War Wounds", "War Wounds"]
-                };
-                console.log(audio_folder);
-                for (var track in tracks) {
-                    var tb = document.createElement("div");
-                    var pb = document.createElement("button");
-                    var tn = document.createElement("div");
-                    tb.className = "trackbar";
-                    pb.className = "playbutton";
-                    tn.className = "trackname";
-                    tn.innerHTML = audio_index + ". " + tracks[track][0];
-                    pb.id = tracks[track][1];
-                    pb.addEventListener('click', switchTrack);
-                    tb.appendChild(pb);
-                    tb.appendChild(tn);
-                    trackbox.appendChild(tb);
-                    audio_index ++;
-                }
-                audio.addEventListener("ended", function() {
-                    _(playingtrack).style.background = "url(icons8-play-24.png)";
-                    playingtrack = "";
-                });
-                function switchTrack(event) {
-                   if(is_playing) {
-                    if(playingtrack != event.target.id) {
-                        is_playing = true;
-                        _(playingtrack).style.background = "url(icons8-play-24.png)";
-                        event.target.style.background = "url(icons8-pause-24.png)";
-                        audio.src = audio_folder + event.target.id + audio_ext;
-                        audio.play();
-                    } else {
-                        audio.pause();
-                        is_playing = false;
-                        event.target.style.background = "url(icons8-play-24.png)";
-                    }
-                   } else {
-                    is_playing = true;
-                    event.target.style.background = "url(icons8-pause-24.png)";
-                    if (playingtrack != event.target.id) {
-                        audio.src = audio_folder + event.target.id + audio_ext;
-                    }
-                    audio.play();
-                   } 
-                   playingtrack = event.target.id;
-                }
-            }
-        window.addEventListener('load', audioApp);
-        </script>
+        <script src="https://kit.fontawesome.com/4597df90b1.js" crossorigin="anonymous"></script>
 </head>
     <body>
         <h1>This needs to be heard!</h1>
         <header>
 
         </header>
-        <!--<main class="music-main">
-            <div class="video-div">
+        <main class="music-main">
+            <div class="main-div">
+                <p id="logo"><i class="fa-solid fa-music"></i></p>
+                <i class="fa-solid fa-volume-high" aria-hidden="true" id="volume-icon" onclick="muteSound()"></i>
+                <!--left part-->
+                <div class="left">
+                    <!--song image-->
+                    <img id="track-img">
+                    <div class="volume">
+                        <p id="volume-show"></p>
+                    <input type="range" min="0" max="100" value="90" onchange="volumeChange()" id="volume">
+                    </div>
+                </div>
+                <!--right part-->
+                <div class="right">
+                    <div class="show-song-number">
+                        <p id="present"></p>
+                        <p>/</p>
+                        <p id="total"></p>
+                    </div>
+                    <!--song title-->
+                    <p id="title"></p>
+                    <p id="artist"></p>
+
+                    <!--middle part-->
+                    <div class="middle">
+                        <button onclick="previousSong()" id="pre"><i class="fa-solid fa-backward-step" aria-hidden="true"></i></button>
+                        <button onclick="justPlay()" id="play"><i class="fa-solid fa-play" aria-hidden="true"></i></button>
+                        <button onclick="nextSong()" id="next"><i class="fa-solid fa-forward-step" aria-hidden="true"></i></button>
+                    </div>
+                    <!--song duration part-->
+                    <div class="duration">
+                        <input type="range" min="0" max="100" value="0" id="duration-slider" onchange="changeDuration()">
+                    </div>
+                    <button id="auto" onclick="autoplaySwitch()">Auto Play<i class="fa-solid fa-arrow-rotate-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <!--<div class="video-div">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/7Qbmi5jPxos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Y9SQlhui-sA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -123,8 +82,8 @@
                 <li><a href="TD Jakes.mp3"></a></li>
                 <li><a href="Testimony.mp3"></a></li>
                 <li><a href="War Wounds.mp3"></a></li>
-            </ul>
-        </main>-->
+            </ul>-->
+        </main>
         <div id="trackbox"></div>
         <div class="social-section">
             <button id="socialBtn"></button>
@@ -145,5 +104,6 @@
             <div class="credits-div">
                 <span>Jalloh Web Constructed</span>
                 </div>
+                <script src="script.js"></script>
     </body>
 </html>
