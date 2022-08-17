@@ -169,6 +169,32 @@ main {
     margin-right: auto;
 }
 
+.main-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    text-align: right;
+}
+
+.middle {
+    text-align: center;
+}
+
+.show-song-number {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 8.5%;
+    height: 30px;
+}
+
+.show-song-number p {
+    position: relative;
+    bottom: 12px;
+}
+
 .video-div {
     text-align: center;
 }

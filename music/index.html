@@ -44,23 +44,23 @@
                         <p>/</p>
                         <p id="total"></p>
                     </div>
+                    </div>
+                     <!--middle part-->
                     <!--song title-->
                     <p id="title"></p>
                     <p id="artist"></p>
-
-                    <!--middle part-->
+                    
                     <div class="middle">
                         <button onclick="previousSong()" id="pre"><i class="fa-solid fa-backward-step" aria-hidden="true"></i></button>
                         <button onclick="justPlay()" id="play"><i class="fa-solid fa-play" aria-hidden="true"></i></button>
-                        <button onclick="nextSong()" id="next"><i class="fa-solid fa-forward-step" aria-hidden="true"></i></button>
+                        <button onclick="nextSong()" id="next"><i class="fa-solid fa-forward-step" aria-hidden="true"></i></button><br><br>
+                        <button id="auto" onclick="autoplaySwitch()"><i class="fa-solid fa-arrow-rotate-right" aria-hidden="true"></i></button>
                     </div>
                     <!--song duration part-->
                     <div class="duration">
                         <input type="range" min="0" max="100" value="0" id="duration-slider" onchange="changeDuration()">
                     </div>
-                    <button id="auto" onclick="autoplaySwitch()"><i class="fa-solid fa-arrow-rotate-right" aria-hidden="true"></i></button>
                 </div>
-            </div>
             <!--<div class="video-div">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/7Qbmi5jPxos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
