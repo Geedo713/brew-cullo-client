@@ -28,55 +28,55 @@ let allTracks = [
         name: "Recession",
         path: "Recession.mp3",
         artist: "Cullo",
-        img: "Untitled_Artwork.PNG"
+        img: "image1.jpeg"
     },
     {
          name: "APTTMH",
          path: "APTTMH.mp3",
          artist: "Cullo",
-         img: "Untitled_Artwork.PNG"
+         img: "image1.jpeg"
     }, 
     {
          name: "AZ",
          path: "AZ.mp3",
          artist: "Cullo",
-         img: "Untitled_Artwork.PNG"
+         img: "image1.jpeg"
     },
     {
          name: "Frequency",
          path: "Frequency.mp3",
          artist: "Cullo",
-         img: "Untitled_Artwork.PNG"
+         img: "image1.jpeg"
     }, 
     {
          name: "Indigo",
          path: "Indigo.mp3",
          artist: "Cullo",
-         img: "Untitled_Artwork.PNG"
+         img: "image1.jpeg"
     }, 
     {
          name: "Shabbat Shalom",
          path: "Shabbat-Shalom.mp3",
          artist: "Cullo",
-         img: "Untitled_Artwork.PNG"
+         img: "image1.jpeg"
     }, 
     {
         name: "TD Jakes",
         path: "TD-Jakes.mp3",
         artist: "Cullo",
-        img: "Untitled_Artwork.PNG"
+        img: "image1.jpeg"
     },
     {
         name: "Shabbat Shalom",
         path: "Shabbat-Shalom.mp3",
         artist: "Cullo",
-        img: "Untitled_Artwork.PNG"
+        img: "image1.jpeg"
     },
    {
          name: "Shabbat Shalom",
          path: "Shabbat-Shalom.mp3",
          artist: "Cullo",
-         img: "Untitled_Artwork.PNG"
+         img: "image1.jpeg"
    }
 ]
 

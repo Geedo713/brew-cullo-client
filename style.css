@@ -7,6 +7,13 @@ html {
     overflow-x: hidden;
 }
 
+header {
+    background: url("the-divine-beings.png");
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
 .home-header {
     background: url("image3.jpeg");
     height: 50vh;
@@ -38,8 +45,6 @@ body {
 }
 
 .landing-body {
-    border: 1px solid black;
-    box-shadow: 1px 2px 2px 1px;
     background-size: cover;
     text-align: center;
 }
@@ -52,6 +57,8 @@ body {
 
 button {
     text-transform: uppercase;
+    background: #190C4B;
+    color: white; 
     height: 35px;
     width: 150px;
 }
@@ -94,7 +101,7 @@ input {
 }
 
 .social-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.596), rgba(204, 28, 110, 0.075));
+    background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
     border: none;
     height: 25vh;
     width: 100%;
@@ -110,6 +117,7 @@ input {
     border-radius: 100px;
     width: 70px;
     height: 70px;
+    background: none;
 }
 
 .i-frame {

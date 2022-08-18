@@ -18,7 +18,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/4597df90b1.js" crossorigin="anonymous"></script>
-</head>
+        <script src="https://js.stripe.com/v3"></script>
+            </head>
     <body>
         <h1>This needs to be heard!</h1>
         <header>
@@ -27,39 +28,42 @@
         <main class="music-main">
             <div class="main-div">
                 <p id="logo"><i class="fa-solid fa-music"></i></p>
-                <i class="fa-solid fa-volume-high" aria-hidden="true" id="volume-icon" onclick="muteSound()"></i>
                 <!--left part-->
                 <div class="left">
                     <!--song image-->
                     <img id="track-img">
-                    <div class="volume">
-                        <p id="volume-show"></p>
-                    <input type="range" min="0" max="100" value="90" onchange="volumeChange()" id="volume">
-                    </div>
                 </div>
                 <!--right part-->
                 <div class="right">
                     <div class="show-song-number">
-                        <p id="present"></p>
-                        <p>/</p>
-                        <p id="total"></p>
-                    </div>
-                    </div>
-                     <!--middle part-->
-                    <!--song title-->
-                    <p id="title"></p>
-                    <p id="artist"></p>
-                    
-                    <div class="middle">
+                        <h2 id="present"></h2>
+                        <h2> | </h2>
+                        <h2 id="total"></h2>
+                        </div>
+                        <div class="volume">
+                            <i class="fa-solid fa-volume-high" aria-hidden="true" id="volume-icon" onclick="muteSound()"></i>
+                            <p id="volume-show"></p>
+                            <br>
+                        <input type="range" min="0" max="100" value="90" onchange="volumeChange()" id="volume">
+                        </div>
+                        <div class="song-info-div">
+                            <h3 id="title"></h3>
+                            <h3 id="artist"></h3>
+                            </div>
+                        <div class="duration">
+                            <input type="range" min="0" max="100" value="0" id="duration-slider" onchange="changeDuration()">
+                        </div><br>
+                        <div class="audio-controls">
                         <button onclick="previousSong()" id="pre"><i class="fa-solid fa-backward-step" aria-hidden="true"></i></button>
                         <button onclick="justPlay()" id="play"><i class="fa-solid fa-play" aria-hidden="true"></i></button>
                         <button onclick="nextSong()" id="next"><i class="fa-solid fa-forward-step" aria-hidden="true"></i></button><br><br>
                         <button id="auto" onclick="autoplaySwitch()"><i class="fa-solid fa-arrow-rotate-right" aria-hidden="true"></i></button>
+                        </div>
+                        </div>
+                    <!--song title-->
+                    <div class="middle">
                     </div>
                     <!--song duration part-->
-                    <div class="duration">
-                        <input type="range" min="0" max="100" value="0" id="duration-slider" onchange="changeDuration()">
-                    </div>
                 </div>
             <!--<div class="video-div">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/7Qbmi5jPxos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -89,6 +93,14 @@
             </div>
             </footer>
             <br><br>
+            <div class="donation-div">
+            <p>All donations will go towards improvements in products, and equipment, to meet the needs to the community.</p>
+                <a href="https://buy.stripe.com/5kAfZp3hJ18C3L2004"><button
+      style="text-transform: uppercase; background-color:#190C4B;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
+      id="checkout-button-price_1LYGxzCRIYDxBAve9AtfrX5m"
+      role="link"
+      type="button"
+    >Donate Now</button></a><br><br><br>
             <div class="credits-div">
                 <span>Jalloh Web Constructed</span>
                 </div>

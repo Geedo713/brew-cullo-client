@@ -7,16 +7,22 @@ html {
     overflow-x: hidden;
 }
 
-.home-header {
-    background: url("image3.jpeg");
-    height: 50vh;
+header {
+    background: url("the-divine-beings.png");
     background-size: cover;
+    height: 50vh;
+    width: 100%;
 }
 
-.shop-header {
-    background: url(image0.jpeg);
-    height: 50vh;
+.extra-div {
+    background: url("AKH (2).png");
     background-size: cover;
+    height: 50vh;
+}
+
+.donation-div {
+    height: 10vh;
+    text-align: center;
 }
 
 ul {
@@ -32,34 +38,22 @@ ul a {
 body {
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
-    min-width: 200px;
-    min-height: 600px;
 }
 
-.landing-body {
-    border: 1px solid black;
-    box-shadow: 1px 2px 2px 1px;
-    background-size: cover;
-    text-align: center;
+.main-div {
+    background: rgba(0, 0, 0, 0.596);
+    display: flex;
+    flex-direction: column;
 }
 
-.landing-btn-div {
-    width: 100;
-    text-align: center;
-    padding-bottom: 15px;
+.left {
+    width: 40%;
+    padding-left: 20px;
 }
 
-button {
-    text-transform: uppercase;
-    height: 35px;
-    width: 150px;
-}
-
-.landing-body button {
-    position: relative;
-    height: 35px;
-    width: 150px;
+img {
+    height: 200px;
+    width: 60%;
 }
 
 #contactForm {
@@ -83,18 +77,8 @@ button {
     width: 100%;
 }
 
-input {
-    width: 100%;
-    color: white;
-    border: 1px solid white;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    background: none;
-}
-
 .social-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.596), rgba(204, 28, 110, 0.075));
+    background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
     border: none;
     height: 25vh;
     width: 100%;
@@ -112,39 +96,8 @@ input {
     height: 70px;
 }
 
-.i-frame {
-    display: none;
-}
-
-main p {
-    padding-left: 7px;
-    padding-right: 7px;
-    line-height: 25px;
-}
-
 h1 {
     padding-left: 5px;
-}
-
-.shop-main {
-    display: flex;
-    min-width: 600px;
-    max-height: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.with-tiger {
-    display: flex;
-}
-
-.without-tiger {
-    display: flex;
-}
-
-figure img {
-    height: 200px;
-    width: 200px;
 }
 
 .pray-for-peace {
@@ -153,7 +106,7 @@ figure img {
 }
 
 footer {
-    height: 40vh;
+    height: 20vh;
 }
 
 .credits-div {
@@ -171,11 +124,36 @@ main {
 
 .main-div {
     display: flex;
-    flex-direction: column;
 }
 
 .right {
+    width: 100%;
     text-align: right;
+}
+
+.song-info-div {
+    position: relative;
+    bottom: 300px;
+    padding-left: 300px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+#title {
+    font-size: 40px;
+    padding: 10px;
+    bottom: 10px;
+    position: relative;
+
+}
+
+#artist {
+    font-size: 40px;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
 }
 
 .middle {
@@ -183,16 +161,63 @@ main {
 }
 
 .show-song-number {
+    color: white;
+    position: relative;
+    bottom: 170px;
     display: flex;
-    border: 1px solid black;
-    border-radius: 4px;
-    width: 8.5%;
+    width: 100%;
     height: 30px;
+    padding-left: 300px;
+    text-align: center;
+    justify-content: center;
 }
 
-.show-song-number p {
+.audio-controls {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 300px;
+    position: relative;
+    bottom: 300px;
+}
+
+#pre,
+#play,
+#next,
+#auto {
+    background: #190C4B; 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 10vh;
+    width: 80px;
+}
+
+.volume {
+    display: flex;
+}
+
+.volume i {
+    position: relative;
+    top: 3px;
+    padding-right: 30px;
+}
+
+#volume-icon {
+    color: white;
+    
+}
+
+.duration {
+    text-align: center;
+    padding-left: 300px
+}
+
+.show-song-number h2 {
     position: relative;
     bottom: 12px;
+    letter-spacing: 3px;
 }
 
 .video-div {
@@ -206,21 +231,24 @@ main {
 
 .social-img-one {
     position: relative;
-    right: 5px;
+    right: 8px;
     bottom: 2px;
     height: 68px;
+    width: 75px;
 }
 
 .social-img-two {
     position: relative;
-    right: 11px;
     bottom: 6px;
+    right: 11px;
     height: 80px;
+    width: 80px;
 }
 
 .social-img-three {
     position: relative;
-    right: 8px;
+    right: 9.2px;
     bottom: 4px;
     height: 76px;
+    width: 80px;
 }

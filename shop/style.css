@@ -7,16 +7,19 @@ html {
     overflow-x: hidden;
 }
 
-.home-header {
-    background: url("image3.jpeg");
+header {
     height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("the-divine-beings.png");
     background-size: cover;
 }
 
-.shop-header {
-    background: url(image0.jpeg);
-    height: 50vh;
-    background-size: cover;
+.extra-div {
+    margin-left: auto;
+    margin-right: auto;
+    background: url("");
+    background-size: contain;
 }
 
 ul {
@@ -94,7 +97,7 @@ input {
 }
 
 .social-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.596), rgba(204, 28, 110, 0.075));
+    background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
     border: none;
     height: 25vh;
     width: 100%;
