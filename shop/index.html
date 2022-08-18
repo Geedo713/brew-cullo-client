@@ -18,29 +18,89 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/4597df90b1.js" crossorigin="anonymous"></script>
-        <script>
-            var stripe = Stripe('pk_test_51LTBj8CRIYDxBAveweNx0KvFahT8HrXCkFqPAmtxJcyB7Lby9U9ynjvixivBwJvYsjhOcyI5z3Cb3jw3E72jX8HE00oMgsm8qM');
-            stripe.redirectToCheckout({
-  lineItems: [{
-    price: '{{price_1LXcopCRIYDxBAvetvmtgkvV}}', // Replace with the ID of your price
-    quantity: 1,
-    price: '{{price_1LXcltCRIYDxBAveAHxdPJG7}}',
-    quantity: 1,
-  }],
-  mode: 'payment',
-  successUrl: 'success.html',
-  cancelUrl: 'cancel.html',
-}).then(function (result) {
-  // If `redirectToCheckout` fails due to a browser or network
-  // error, display the localized error message to your customer
-  // using `result.error.message`.
-});
-        </script>
+        <script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
+  <h1>Wear what needs to be heard!</h1>
     <header>
 
     </header>
+    <main class="shop-main">
+      <article>
+        <div class="article-img-div">
+          <figure>
+          <img src="image0.jpeg" alt="Cullo the israelite, hebrew tattoos, israelite clothing, israelite tribes, israelite people, israelite warrior">
+          </figure>
+        </div>
+        <div class="article-p-div">
+          <p>Express your concern for the earth in a fresh and fitted, 100% cotton T-shirt with customized, hand-drawn text. These products enable the transfer of awareness across the community for the greater good.</p>
+          <aside>~ Cullo</aside>
+        </div>
+      </article>
+<div class="without-panther">
+  <div class="black-no-cat">
+    <figure>
+      <img src="black-t-white-text-no-panther.jpg" alt="hebreware, israelite apparel">
+      <figcaption>De-colonize the planet! Black T white text</figcaption>
+    </figure>
+  <a href="https://buy.stripe.com/3csfZp19B04y4P6fZ0"><button
+  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
+  id="checkout-button-price_1LXciVCRIYDxBAveekfseMzj"
+  role="link"
+  type="button"
+>
+  Checkout
+</button></a>
+</div>
+<div class="white-no-cat">
+  <figure>
+    <img src="white-t-black-text-no-panther.jpg">
+    <figcaption>De-colonize the planet! White T black text</figcaption>
+  </figure>
+  <a href="https://buy.stripe.com/28odRh3hJ5oS95mdQT"><button
+  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
+  id="checkout-button-price_1LXcemCRIYDxBAvezqaYICmX"
+  role="link"
+  type="button"
+>Checkout
+</button></a>
+</div>
+</div>
+<div class="with-panther">
+  <div class="black-with-cat">
+    <figure>
+      <img src="black-t-gold-text-panther.jpg" alt="hebreware israelite apparel">
+      <figcaption>De-colonize the planet! Black T w/ panther and gold text</figcaption>
+    </figure>
+  <a href="https://buy.stripe.com/3csbJ9aKb4kO95mcMM"><button
+  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
+  id="checkout-button-price_1LXcopCRIYDxBAvetvmtgkvV"
+  role="link"
+  type="button">Checkout
+</button></a>
+</div>
+<div class="white-with-cat">
+  <figure>
+    <img src="white-t-black-text.jpg" alt="hebreware, israelite apparel">
+    <figcaption>De-colonize the planet! White T w/ panther and black text</figcaption>
+  </figure>
+<a href="https://buy.stripe.com/14k14v3hJeZs0yQ5kl"><button
+  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
+  id="checkout-button-price_1LXcltCRIYDxBAveAHxdPJG7"
+  role="link"
+  type="button"
+>
+  Checkout
+</button></a>
+</div>
+</div>
+<div id="error-message"></div>
+    </main>
+    <div class="social-section">
+      <a href="www.tiktok.com/@cullo7eventhheaven"><button id="socialBtn"><img class="social-img-one" src="icons8-tik-tok-96.png"></button></a>
+      <a href="https://instagram.com/brewcullo?igshid=YmMyMTA2M2Y="><button id="socialBtn"><img class="social-img-two" src="icons8-instagram-circle-90.png"></button></a>
+      <a href="https://twitter.com/brewcullo?s=21&t=ZnX5k-JrKhcTbQDqB6j35A"><button id="socialBtn"><img class="social-img-three" src="icons8-twitter-circled-100.png"></button></a>
+      </div>
         <footer>
             <div class="nav">
                 <ul>
@@ -55,6 +115,5 @@
             <span>Jalloh Web Constructed</span>
             </div>
             </footer>
-            <script src="https://js.stripe.com/v3/"></script>
 </body>
 </html>

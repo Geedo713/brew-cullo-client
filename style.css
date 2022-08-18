@@ -172,3 +172,24 @@ main {
 .video-div {
     text-align: center;
 }
+
+.social-img-one {
+    position: relative;
+    right: 5px;
+    bottom: 2px;
+    height: 68px;
+}
+
+.social-img-two {
+    position: relative;
+    right: 11px;
+    bottom: 6px;
+    height: 80px;
+}
+
+.social-img-three {
+    position: relative;
+    right: 8px;
+    bottom: 4px;
+    height: 76px;
+}

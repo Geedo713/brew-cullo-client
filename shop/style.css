@@ -127,19 +127,35 @@ h1 {
 }
 
 .shop-main {
-    display: flex;
-    min-width: 600px;
-    max-height: 800px;
     margin-left: auto;
     margin-right: auto;
 }
-
-.with-tiger {
+article {
     display: flex;
 }
 
-.without-tiger {
+.article-img-div {
+    width: 50%;
+}
+
+.article-img-div figure img {
+    width: 100%;
+    height: 300px;
+}
+
+.article-p-div {
+    float: right;
+    width: 70%;
+}
+
+.with-panther {
     display: flex;
+    padding-bottom: 40px;
+}
+
+.without-panther {
+    display: flex;
+    padding-bottom: 30px;
 }
 
 figure img {
@@ -171,4 +187,25 @@ main {
 
 .video-div {
     text-align: center;
+}
+
+.social-img-one {
+    position: relative;
+    right: 5px;
+    bottom: 2px;
+    height: 68px;
+}
+
+.social-img-two {
+    position: relative;
+    right: 11px;
+    bottom: 6px;
+    height: 80px;
+}
+
+.social-img-three {
+    position: relative;
+    right: 8px;
+    bottom: 4px;
+    height: 76px;
 }
