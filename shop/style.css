@@ -109,6 +109,7 @@ input {
 }
 
 #socialBtn {
+    background: none;
     border: none;
     border-radius: 100px;
     width: 70px;
@@ -166,9 +167,9 @@ figure img {
     width: 200px;
 }
 
-.pray-for-peace {
-    height: 300px;
-    width: 400px;
+.landing-body {
+    background-size: cover;
+    text-align: center;
 }
 
 footer {

@@ -14,10 +14,9 @@ header {
     width: 100%;
 }
 
-.extra-div {
-    background: url("AKH (2).png");
+.landing-body {
     background-size: cover;
-    height: 50vh;
+    text-align: center;
 }
 
 .donation-div {
@@ -230,6 +229,7 @@ main {
 }
 
 .social-img-one {
+    background: none;
     position: relative;
     right: 8px;
     bottom: 2px;
@@ -238,6 +238,7 @@ main {
 }
 
 .social-img-two {
+    background: none;
     position: relative;
     bottom: 6px;
     right: 11px;
@@ -246,6 +247,7 @@ main {
 }
 
 .social-img-three {
+    background: none;
     position: relative;
     right: 9.2px;
     bottom: 4px;
