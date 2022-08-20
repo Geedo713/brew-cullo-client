@@ -67,14 +67,14 @@ let allTracks = [
         img: "image1.jpeg"
     },
     {
-        name: "Shabbat Shalom",
-        path: "Shabbat-Shalom.mp3",
+        name: "Testimony",
+        path: "Testimony.mp3",
         artist: "Cullo",
         img: "image1.jpeg"
     },
    {
-         name: "Shabbat Shalom",
-         path: "Shabbat-Shalom.mp3",
+         name: "War Wounds",
+         path: "War Wounds.mp3",
          artist: "Cullo",
          img: "image1.jpeg"
    }
