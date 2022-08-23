@@ -431,17 +431,17 @@ input {
     background: none;
 }
 
-/*.social-section {
+.social-section {
     background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
     border: none;
-    height: 25vh;
+    height: 20vh;
     width: 100%;
     text-align: center;
     justify-content: center;
     padding-top: 100px;
     display: flex;
     
-}*/
+}
 
 #socialBtn {
     background: none;
@@ -471,9 +471,17 @@ figure img {
     width: 200px;
 }
 
+.landing-body {
+    text-align: center;
+}
+
 .pray-for-peace {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 300px;
-    width: 100%;
+    width: 80%;
 }
 
 /*footer {

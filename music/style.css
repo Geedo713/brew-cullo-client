@@ -243,6 +243,12 @@ html {
     .main-div {
         height: 70vh;
     }
+    .duration {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 750px;
+        width: 100%;
+    }
     .social-section {
         background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
         border: none;
@@ -270,11 +276,11 @@ html {
         height: 70vh;
     }
     .duration {
-        text-align: right;
-        position: relative;
-
-        bottom: 200px;
-        }
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 750px;
+        width: 100%;
+    }
     .social-section {
         background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
         border: none;
@@ -380,14 +386,14 @@ ul a {
 }
 
 body {
-    max-width: 880px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .main-div {
     background: rgba(0, 0, 0, 0.596);
-    /*height: 60vh;*/
+    height: 60vh;
     display: flex;
     flex-direction: column;
 }
@@ -404,11 +410,11 @@ body {
     text-align: right;
 }
 
-#volume {
-    position: relative;
+/*#volume {
+    /*position: relative;
     bottom: 150px;
     right: 255px; 
-}
+}*/
 
 #volume-icon {
     color: white;
@@ -553,16 +559,20 @@ main {
     color: white;
     border: none;
     border-radius: 50%;
-    height: 10vh;
+    height: 5vh;
     width: 80px;
 }
 
-/*.duration {
+.duration {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 750px;
+    width: 100%;
     /*text-align: right;
     padding-right: 200px;
     position: relative;
-    bottom: 100px;
-}*/
+    bottom: 100px;*/
+}
 
 .show-song-number h2 {
     position: relative;
