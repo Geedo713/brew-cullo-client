@@ -15,20 +15,14 @@ html {
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 20vh;
+        height: 30vh;
         width: 100%;
-    }
-    .duration {
-    text-align: right;
-    position: relative;
-    right: 140px;
-    bottom: 50px;
     }
 
     .social-section {
         background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
         border: none;
-        height: 20vh;
+        height: 15vh;
         width: 100%;
         text-align: center;
         justify-content: center;
@@ -45,14 +39,30 @@ html {
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 20vh;
+        height: 30vh;
         width: 100%;
     }
-    .duration {
-        text-align: right;
-        position: relative;
-        right: 140px;
-        bottom: 300px;
+    .social-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+        border: none;
+        height: 20vh;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 100px;
+        display: flex;
+    }
+}
+@media only screen and (min-width: 375px) and (min-height: 667px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        background: url("the-divine-beings.png");
+        background-size: cover;
+        height: 30vh;
+        width: 100%;
     }
     .social-section {
         background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
@@ -73,13 +83,13 @@ html {
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 20vh;
+        height: 30vh;
         width: 100%;
     }
     .social-section {
         background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
         border: none;
-        height: 5vh;
+        height: 15vh;
         width: 100%;
         text-align: center;
         justify-content: center;
@@ -136,8 +146,11 @@ html {
         margin-left: auto;
         margin-right: auto;
     }
-    footer {
-        height: 12vh;
+    header {
+        background: url("the-divine-beings.png");
+        background-size: cover;
+        height: 30vh;
+        width: 100%;
     }
     .social-section {
         background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
@@ -159,17 +172,19 @@ html {
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 80vh;
+        height: 30vh;
         width: 100%;
     }
-    .main-div {
-        height: 40vh;
-    }
-    .duration {
-        text-align: right;
-        padding-right: 80px;
-        position: relative;
-        bottom: 150px;
+    .social-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+        border: none;
+        height: 20vh;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 100px;
+        display: flex;
+        
     }
 }
 @media only screen and (min-width: 900px) and (min-height: 1500px) {
@@ -183,22 +198,24 @@ html {
         height: 80vh;
         width: 100%;
     }
-    .main-div {
+    .social-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+        border: none;
         height: 30vh;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 100px;
+        display: flex;
+        
     }
-    .duration {
-        text-align: right;
-        padding-right: 80px;
-        position: relative;
-        bottom: 50px;
-        }
 }
 @media only screen and (min-width: 1024px) and (min-height: 600px) {
     body {
         margin-left: auto;
         margin-right: auto;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
     header {
         background: url("the-divine-beings.png");
@@ -248,9 +265,6 @@ html {
             display: flex;
             
         }
-    .shop-main {
-        padding-left: 200px;
-    }
 }
 @media only screen and (min-width: 1350px) and (min-height: 900px) {
     body {
@@ -262,7 +276,7 @@ html {
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 50vh;
+        height: 40vh;
         width: 100%;
     }
     .pray-for-peace {
@@ -279,9 +293,6 @@ html {
             display: flex;
             
         }
-    .shop-main {
-        padding-left: 200px;
-    }
 }
 @media only screen and (min-width: 1450px) and (min-height: 1000px) {
     body {
@@ -310,16 +321,13 @@ html {
             display: flex;
             
         }
-    .shop-main {
-        padding-left: 200px;
-    }
 }
 @media only screen and (min-width: 1750px) and (min-height: 1200px) {
     body {
         margin-left: auto;
         margin-right: auto;
-        padding-left: 500px;
-        padding-right: 500px;
+        padding-left: 200px;
+        padding-right: 200px;
     }
     header {
         background: url("the-divine-beings.png");
@@ -341,18 +349,8 @@ html {
             display: flex;
             
         }
-    .shop-main {
-        padding-left: 200px;
-    }
 }
 
-/*header {
-    height: 30vh;
-    margin-left: auto;
-    margin-right: auto;
-    background: url("the-divine-beings.png");
-    background-size: cover;
-}*/
 nav {
     width: 100%;
 }
@@ -382,12 +380,6 @@ ul a {
     color: black;
 }
 
-/*body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}*/
-
 .landing-btn-div {
     width: 100;
     text-align: center;
@@ -398,43 +390,6 @@ button {
     text-transform: uppercase;
     height: 35px;
     width: 150px;
-}
-
-.landing-body button {
-    position: relative;
-    height: 35px;
-    width: 150px;
-}
-
-#contactForm {
-    color: white;
-    width: 100%;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 35px;
-    line-height: 40px;
-    background: linear-gradient(black, rgba(0, 0, 0, 0.596));
-}
-
-.form-cta-div {
-    width: 100%;
-    text-align: center;
-}
-
-.contact-form-span {
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-}
-
-input {
-    width: 100%;
-    color: white;
-    border: 1px solid white;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    background: none;
 }
 
 /*.social-section {

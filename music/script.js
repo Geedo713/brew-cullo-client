@@ -26,7 +26,7 @@ let track = document.createElement('audio');
 let allTracks = [
     {
         name: "Recession",
-        path: "Frequency 2.mp3",
+        path: "Recession.mp3",
         artist: "Cullo",
         img: "image1.jpeg"
     },
