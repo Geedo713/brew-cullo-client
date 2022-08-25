@@ -203,23 +203,40 @@ html {
     body {
         margin-left: auto;
         margin-right: auto;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 200vh;
+        height: 50vh;
         width: 100%;
+    }
+    .pray-for-peace {
+        display: none;
+    }
+    .donation-div {
+        padding-top: 280px;
     }
     .duration {
         text-align: right;
         position: relative;
-        right: 220px;
-        bottom: 200px;
+        right: 310px;
+        bottom: 250px;
+        }
+        .music-main {
+            height: 59.95vh;
+        }
+        .main-div {
+            height: 100vh;
+        }
+        .track-img {
+            height: 200px;
         }
         .social-section {
             background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
             border: none;
-            height: 40vh;
+            height: 45vh;
             width: 100%;
             text-align: center;
             justify-content: center;
@@ -374,6 +391,24 @@ html {
     height: 3vh;
     text-align: center;
 }
+nav {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    line-height: 50px;
+    text-align: right;
+    justify-content: right;
+    justify-items: right;
+}
+
+ul a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
 
 ul {
     list-style: none;
@@ -386,7 +421,8 @@ ul a {
 }
 
 body {
-    max-width: 900px;
+    /*padding-left: 400px;
+    padding-right: 400px;*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -458,7 +494,6 @@ img {
     justify-content: center;
     padding-top: 100px;
     display: flex;
-    
 }*/
 
 #socialBtn {
@@ -473,15 +508,18 @@ h1 {
     padding-left: 5px;
 }
 
-.pray-for-peace {
-    padding-top: 10px;
-    height: 300px;
-    width: 400px;
+.landing-div {
+    text-align: center;
 }
 
-/*footer {
-    height: 20vh;
-}*/
+.pray-for-peace {
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    height: 1vh;
+}
 
 .credits-div {
     text-align: center;
@@ -566,7 +604,7 @@ main {
 .duration {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 750px;
+    padding-left: 860px;
     width: 100%;
     /*text-align: right;
     padding-right: 200px;

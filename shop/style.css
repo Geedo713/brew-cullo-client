@@ -53,7 +53,7 @@ html {
         position: relative;
         right: 140px;
         bottom: 300px;
-        }
+    }
     .social-section {
         background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
         border: none;
@@ -63,10 +63,9 @@ html {
         justify-content: center;
         padding-top: 100px;
         display: flex;
-        
     }
 }
-@media only screen and (min-width: 414px) and (min-height: 914px) {
+@media only screen and (min-width: 412px) and (min-height: 914px) {
     body {
         margin-left: auto;
         margin-right: auto;
@@ -86,13 +85,8 @@ html {
         justify-content: center;
         padding-top: 100px;
         display: flex;
-        
-    }
-    footer {
-        height: 10vh;
-    }
 }
-
+}
 @media only screen and (min-width: 470px) and (min-height: 800px) {
     body {
         margin-left: auto;
@@ -203,23 +197,22 @@ html {
     body {
         margin-left: auto;
         margin-right: auto;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 200vh;
+        height: 50vh;
         width: 100%;
     }
-    .duration {
-        text-align: right;
-        position: relative;
-        right: 220px;
-        bottom: 200px;
-        }
+    .pray-for-peace {
+        display: none;
+    }
         .social-section {
             background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
             border: none;
-            height: 40vh;
+            height: 30vh;
             width: 100%;
             text-align: center;
             justify-content: center;
@@ -228,137 +221,156 @@ html {
             
         }
 }
-
 @media only screen and (min-width: 1280px) and (min-height: 800px) {
     body {
         margin-left: auto;
         margin-right: auto;
+        padding-left: 200px;
+        padding-right: 200px;
     }
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 100vh;
+        height: 50vh;
         width: 100%;
     }
-    .main-div {
-        height: 70vh;
+    .pray-for-peace {
+        display: none;
     }
+        .social-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+            border: none;
+            height: 30vh;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            padding-top: 100px;
+            display: flex;
+            
+        }
     .shop-main {
         padding-left: 200px;
-    }
-    .social-section {
-        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
-        border: none;
-        height: 40vh;
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        padding-top: 100px;
-        display: flex;
-        
     }
 }
 @media only screen and (min-width: 1350px) and (min-height: 900px) {
     body {
         margin-left: auto;
         margin-right: auto;
+        padding-left: 300px;
+        padding-right: 300px;
     }
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 100vh;
+        height: 50vh;
         width: 100%;
     }
-    .main-div {
-        height: 70vh;
+    .pray-for-peace {
+        display: none;
     }
-    .duration {
-        text-align: right;
-        position: relative;
-
-        bottom: 200px;
+        .social-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+            border: none;
+            height: 30vh;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            padding-top: 100px;
+            display: flex;
+            
         }
-    .social-section {
-        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
-        border: none;
-        height: 40vh;
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        padding-top: 100px;
-        display: flex;
-        
-    }
-    footer {
-        height: 20vh;
+    .shop-main {
+        padding-left: 200px;
     }
 }
 @media only screen and (min-width: 1450px) and (min-height: 1000px) {
     body {
         margin-left: auto;
         margin-right: auto;
+        padding-left: 400px;
+        padding-right: 400px;
     }
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 100vh;
+        height: 50vh;
         width: 100%;
     }
-    .main-div {
-        height: 70vh;
+    .pray-for-peace {
+        display: none;
     }
-    .social-section {
-        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
-        border: none;
-        height: 40vh;
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        padding-top: 100px;
-        display: flex;
-        
-    }
-    footer {
-        height: 30vh;
+        .social-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+            border: none;
+            height: 30vh;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            padding-top: 100px;
+            display: flex;
+            
+        }
+    .shop-main {
+        padding-left: 200px;
     }
 }
 @media only screen and (min-width: 1750px) and (min-height: 1200px) {
     body {
         margin-left: auto;
         margin-right: auto;
+        padding-left: 500px;
+        padding-right: 500px;
     }
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 100vh;
+        height: 50vh;
         width: 100%;
     }
-    .main-div {
-        height: 70vh;
+    .pray-for-peace {
+        display: none;
     }
-    .social-section {
-        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
-        border: none;
-        height: 40vh;
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        padding-top: 100px;
-        display: flex;
-        
-    }
-    footer {
-        height: 30vh;
+        .social-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+            border: none;
+            height: 30vh;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            padding-top: 100px;
+            display: flex;
+            
+        }
+    .shop-main {
+        padding-left: 200px;
     }
 }
 
 /*header {
-    height: 50vh;
+    height: 30vh;
     margin-left: auto;
     margin-right: auto;
     background: url("the-divine-beings.png");
     background-size: cover;
 }*/
+nav {
+    width: 100%;
+}
+ul {
+    display: flex;
+    list-style: none;
+    line-height: 50px;
+    text-align: right;
+    justify-content: right;
+    justify-items: right;
+}
+
+ul a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
 
 ul {
     list-style: none;
@@ -370,11 +382,11 @@ ul a {
     color: black;
 }
 
-body {
-    max-width: 1000px;
+/*body {
     margin-left: auto;
     margin-right: auto;
-}
+    width: 100%;
+}*/
 
 .landing-btn-div {
     width: 100;
@@ -468,6 +480,10 @@ h1 {
 .without-panther {
     padding-left: 80px;
 }
+
+.with-panther {
+    padding-left: 90px;
+}
 article {
     display: flex;
 }
@@ -513,7 +529,7 @@ figure img {
 }
 
 /*footer {
-    height: 8vh;
+    height: 1vh;
 }*/
 
 .credits-div {
