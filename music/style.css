@@ -7,7 +7,7 @@ html {
     overflow-x: hidden;
 }
 
-@media only screen and (min-width: 280px) and (min-height: 653px) {
+/*@media only screen and (min-width: 280px) and (min-height: 653px) {
     body {
         margin-left: auto;
         margin-right: auto;
@@ -18,25 +18,137 @@ html {
         height: 20vh;
         width: 100%;
     }
+    .pray-for-peace {
+        display: none;
+    }
+    .main-div {
+        background: rgba(0, 0, 0, 0.596);
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 40%;
+        padding-left: 20px;
+    }
+    
+    .right {
+        position: relative;
+        bottom: 115px;
+        width: 100%;
+        text-align: right;
+    }
+    #title {
+        font-size: 40px;
+        padding: 10px;
+        bottom: 10px;
+        position: relative;
+    
+    }
+    #artist {
+        font-size: 40px;
+        padding: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .show-song-number {
+        color: white;
+        position: relative;
+        bottom: 170px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        padding-left: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .audio-controls {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-left: 300px;
+        position: relative;
+        bottom: 350px;
+    }
+    #pre,
+    #play,
+    #next,
+    #auto {
+        background: #190C4B; 
+        color: white;
+        border: none;
+        border-radius: 50%;
+        height: 5vh;
+        width: 80px;
+    }
+    .show-song-number h2 {
+        position: relative;
+        bottom: 12px;
+        letter-spacing: 3px;
+    }
     .duration {
     text-align: right;
     position: relative;
-    right: 140px;
-    bottom: 50px;
+    right: 270px;
+    bottom: 180px;
     }
-
+    #track-img {
+        padding-top: 20px;
+        height: 400px;
+        width: 100%;
+    }
+    .donation-div {
+        color: white;
+        position: relative;
+        bottom: 120px;
+        height: 3vh;
+        text-align: center;
+    }
     .social-section {
         background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
         border: none;
-        height: 20vh;
+        height: 10vh;
         width: 100%;
         text-align: center;
         justify-content: center;
         padding-top: 100px;
-        display: flex;
-        
+        display: flex; 
     }
-} 
+    #socialBtn {
+        background: none;
+        border: none;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .social-img-one {
+        background: none;
+        position: relative;
+        right: 8px;
+        bottom: 2px;
+        height: 68px;
+        width: 75px;
+    }
+    .social-img-two {
+        background: none;
+        position: relative;
+        bottom: 6px;
+        right: 11px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .social-img-three {
+        background: none;
+        position: relative;
+        right: 9.2px;
+        bottom: 4px;
+        height: 76px;
+        width: 80px;
+    }
+}
 @media only screen and (min-width: 360px) and (min-height: 740px) {
     body {
         margin-left: auto;
@@ -48,24 +160,138 @@ html {
         height: 20vh;
         width: 100%;
     }
-    .duration {
-        text-align: right;
+    .pray-for-peace {
+        display: none;
+    }
+    .main-div {
+        background: rgba(0, 0, 0, 0.596);
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 40%;
+        padding-left: 20px;
+    }
+    
+    .right {
         position: relative;
-        right: 140px;
-        bottom: 300px;
-        }
+        bottom: 115px;
+        width: 100%;
+        text-align: right;
+    }
+    #title {
+        font-size: 40px;
+        padding: 10px;
+        bottom: 10px;
+        position: relative;
+    
+    }
+    #artist {
+        font-size: 40px;
+        padding: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .show-song-number {
+        color: white;
+        position: relative;
+        bottom: 170px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        padding-left: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .audio-controls {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-left: 300px;
+        position: relative;
+        bottom: 350px;
+    }
+    #pre,
+    #play,
+    #next,
+    #auto {
+        background: #190C4B; 
+        color: white;
+        border: none;
+        border-radius: 50%;
+        height: 5vh;
+        width: 80px;
+    }
+    .show-song-number h2 {
+        position: relative;
+        bottom: 12px;
+        letter-spacing: 3px;
+    }
+    .duration {
+    text-align: right;
+    position: relative;
+    right: 270px;
+    bottom: 180px;
+    }
+    #track-img {
+        padding-top: 20px;
+        height: 400px;
+        width: 100%;
+    }
+    .donation-div {
+        color: white;
+        position: relative;
+        bottom: 110px;
+        height: 3vh;
+        text-align: center;
+    }
     .social-section {
         background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
         border: none;
-        height: 20vh;
+        height: 10vh;
         width: 100%;
         text-align: center;
         justify-content: center;
         padding-top: 100px;
-        display: flex;
-        
+        display: flex; 
+    }
+    #socialBtn {
+        background: none;
+        border: none;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .social-img-one {
+        background: none;
+        position: relative;
+        right: 8px;
+        bottom: 2px;
+        height: 68px;
+        width: 75px;
+    }
+    .social-img-two {
+        background: none;
+        position: relative;
+        bottom: 6px;
+        right: 11px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .social-img-three {
+        background: none;
+        position: relative;
+        right: 9.2px;
+        bottom: 4px;
+        height: 76px;
+        width: 80px;
     }
 }
+
 @media only screen and (min-width: 412px) and (min-height: 914px) {
     body {
         margin-left: auto;
@@ -74,22 +300,137 @@ html {
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 30vh;
+        height: 20vh;
         width: 100%;
+    }
+    .pray-for-peace {
+        display: none;
+    }
+    .main-div {
+        background: rgba(0, 0, 0, 0.596);
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 40%;
+        padding-left: 20px;
+    }
+    .right {
+        position: relative;
+        bottom: 115px;
+        width: 100%;
+        text-align: right;
+    }
+    #title {
+        font-size: 40px;
+        padding: 10px;
+        bottom: 10px;
+        position: relative;
+    
+    }
+    #artist {
+        font-size: 40px;
+        padding: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .show-song-number {
+        color: white;
+        position: relative;
+        bottom: 170px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        padding-left: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .audio-controls {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-left: 300px;
+        position: relative;
+        bottom: 350px;
+    }
+    #pre,
+    #play,
+    #next,
+    #auto {
+        background: #190C4B; 
+        color: white;
+        border: none;
+        border-radius: 50%;
+        height: 5vh;
+        width: 80px;
+    }
+    .show-song-number h2 {
+        position: relative;
+        bottom: 12px;
+        letter-spacing: 3px;
+    }
+    .duration {
+    text-align: right;
+    position: relative;
+    right: 270px;
+    bottom: 180px;
+    }
+    #track-img {
+        padding-top: 20px;
+        height: 400px;
+        width: 100%;
+    }
+    .donation-div {
+        color: white;
+        position: relative;
+        bottom: 105px;
+        height: 3vh;
+        text-align: center;
     }
     .social-section {
         background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
         border: none;
-        height: 5vh;
+        height: 10vh;
         width: 100%;
         text-align: center;
         justify-content: center;
         padding-top: 100px;
-        display: flex;
-        
+        display: flex; 
     }
-    footer {
-        height: 10vh;
+    #socialBtn {
+        background: none;
+        border: none;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .social-img-one {
+        background: none;
+        position: relative;
+        right: 8px;
+        bottom: 2px;
+        height: 68px;
+        width: 75px;
+    }
+    .social-img-two {
+        background: none;
+        position: relative;
+        bottom: 6px;
+        right: 11px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .social-img-three {
+        background: none;
+        position: relative;
+        right: 9.2px;
+        bottom: 4px;
+        height: 76px;
+        width: 80px;
     }
 }
 
@@ -101,20 +442,853 @@ html {
     header {
         background: url("the-divine-beings.png");
         background-size: cover;
+        height: 20vh;
+        width: 100%;
+    }
+    .pray-for-peace {
+        display: none;
+    }
+    .main-div {
+        background: rgba(0, 0, 0, 0.596);
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 40%;
+        padding-left: 20px;
+    }
+    
+    .right {
+        position: relative;
+        bottom: 115px;
+        width: 100%;
+        text-align: right;
+    }
+    #title {
+        font-size: 40px;
+        padding: 10px;
+        bottom: 10px;
+        position: relative;
+    
+    }
+    #artist {
+        font-size: 40px;
+        padding: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .show-song-number {
+        color: white;
+        position: relative;
+        bottom: 170px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        padding-left: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .audio-controls {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-left: 300px;
+        position: relative;
+        bottom: 350px;
+    }
+    #pre,
+    #play,
+    #next,
+    #auto {
+        background: #190C4B; 
+        color: white;
+        border: none;
+        border-radius: 50%;
+        height: 5vh;
+        width: 80px;
+    }
+    .show-song-number h2 {
+        position: relative;
+        bottom: 12px;
+        letter-spacing: 3px;
+    }
+    .duration {
+    text-align: right;
+    position: relative;
+    right: 270px;
+    bottom: 180px;
+    }
+    #track-img {
+        padding-top: 20px;
+        height: 400px;
+        width: 100%;
+    }
+    .donation-div {
+        color: white;
+        position: relative;
+        bottom: 120px;
+        height: 3vh;
+        text-align: center;
+    }
+    .social-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+        border: none;
+        height: 10vh;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 100px;
+        display: flex; 
+    }
+    #socialBtn {
+        background: none;
+        border: none;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .social-img-one {
+        background: none;
+        position: relative;
+        right: 8px;
+        bottom: 2px;
+        height: 68px;
+        width: 75px;
+    }
+    .social-img-two {
+        background: none;
+        position: relative;
+        bottom: 6px;
+        right: 11px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .social-img-three {
+        background: none;
+        position: relative;
+        right: 9.2px;
+        bottom: 4px;
+        height: 76px;
+        width: 80px;
+    }
+}
+@media only screen and (min-width: 540px) and (min-height: 720px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        background: url("the-divine-beings.png");
+        background-size: cover;
         height: 30vh;
         width: 100%;
     }
+    .pray-for-peace {
+        display: none;
+    }
     .main-div {
+        background: rgba(0, 0, 0, 0.596);
         height: 40vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 40%;
+        padding-left: 20px;
+    }
+    
+    .right {
+        position: relative;
+        bottom: 115px;
+        width: 100%;
+        text-align: right;
+    }
+    #title {
+        font-size: 40px;
+        padding: 10px;
+        bottom: 10px;
+        position: relative;
+    
+    }
+    #artist {
+        font-size: 40px;
+        padding: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .show-song-number {
+        color: white;
+        position: relative;
+        bottom: 170px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        padding-left: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .audio-controls {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-left: 300px;
+        position: relative;
+        bottom: 350px;
+    }
+    #pre,
+    #play,
+    #next,
+    #auto {
+        background: #190C4B; 
+        color: white;
+        border: none;
+        border-radius: 50%;
+        height: 5vh;
+        width: 80px;
+    }
+    .show-song-number h2 {
+        position: relative;
+        bottom: 12px;
+        letter-spacing: 3px;
     }
     .duration {
-        text-align: right;
-        padding-right: 200px;
+    text-align: right;
+    position: relative;
+    right: 270px;
+    bottom: 220px;
+    }
+    #track-img {
+        padding-top: 20px;
+        height: 400px;
+        width: 100%;
+    }
+    .donation-div {
+        color: white;
         position: relative;
-        bottom: 50px;
-        }
+        bottom: 120px;
+        height: 3vh;
+        text-align: center;
+    }
+    .social-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+        border: none;
+        height: 20vh;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 100px;
+        display: flex; 
+    }
+    #socialBtn {
+        background: none;
+        border: none;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .social-img-one {
+        background: none;
+        position: relative;
+        right: 8px;
+        bottom: 2px;
+        height: 68px;
+        width: 75px;
+    }
+    .social-img-two {
+        background: none;
+        position: relative;
+        bottom: 6px;
+        right: 11px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .social-img-three {
+        background: none;
+        position: relative;
+        right: 9.2px;
+        bottom: 4px;
+        height: 76px;
+        width: 80px;
+    }
 }
-@media only screen and (min-width: 540px) and (min-height: 720px) {
+@media only screen and (min-width: 768px) and (min-height: 1024px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        background: url("the-divine-beings.png");
+        background-size: cover;
+        height: 30vh;
+        width: 100%;
+    }
+    .pray-for-peace {
+        display: none;
+    }
+    .main-div {
+        background: rgba(0, 0, 0, 0.596);
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 40%;
+        padding-left: 20px;
+    }
+    
+    .right {
+        position: relative;
+        bottom: 115px;
+        width: 100%;
+        text-align: right;
+    }
+    #title {
+        font-size: 40px;
+        padding: 10px;
+        bottom: 10px;
+        position: relative;
+    
+    }
+    #artist {
+        font-size: 40px;
+        padding: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .show-song-number {
+        color: white;
+        position: relative;
+        bottom: 170px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        padding-left: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .audio-controls {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-left: 300px;
+        position: relative;
+        bottom: 350px;
+    }
+    #pre,
+    #play,
+    #next,
+    #auto {
+        background: #190C4B; 
+        color: white;
+        border: none;
+        border-radius: 50%;
+        height: 5vh;
+        width: 80px;
+    }
+    .show-song-number h2 {
+        position: relative;
+        bottom: 12px;
+        letter-spacing: 3px;
+    }
+    .duration {
+    text-align: right;
+    position: relative;
+    right: 270px;
+    bottom: 230px;
+    }
+    #track-img {
+        padding-top: 20px;
+        height: 400px;
+        width: 100%;
+    }
+    .donation-div {
+        color: white;
+        position: relative;
+        bottom: 120px;
+        height: 3vh;
+        text-align: center;
+    }
+    .social-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+        border: none;
+        height: 20vh;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 100px;
+        display: flex; 
+    }
+    #socialBtn {
+        background: none;
+        border: none;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .social-img-one {
+        background: none;
+        position: relative;
+        right: 8px;
+        bottom: 2px;
+        height: 68px;
+        width: 75px;
+    }
+    .social-img-two {
+        background: none;
+        position: relative;
+        bottom: 6px;
+        right: 11px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .social-img-three {
+        background: none;
+        position: relative;
+        right: 9.2px;
+        bottom: 4px;
+        height: 76px;
+        width: 80px;
+    }
+}
+
+@media only screen and (min-width: 820px) and (min-height: 1180px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        background: url("the-divine-beings.png");
+        background-size: cover;
+        height: 20vh;
+        width: 100%;
+    }
+    .pray-for-peace {
+        display: none;
+    }
+    .main-div {
+        background: rgba(0, 0, 0, 0.596);
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 40%;
+        padding-left: 20px;
+    }
+    
+    .right {
+        position: relative;
+        bottom: 115px;
+        width: 100%;
+        text-align: right;
+    }
+    #title {
+        font-size: 40px;
+        padding: 10px;
+        bottom: 10px;
+        position: relative;
+    
+    }
+    #artist {
+        font-size: 40px;
+        padding: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .show-song-number {
+        color: white;
+        position: relative;
+        bottom: 170px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        padding-left: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .audio-controls {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-left: 300px;
+        position: relative;
+        bottom: 350px;
+    }
+    #pre,
+    #play,
+    #next,
+    #auto {
+        background: #190C4B; 
+        color: white;
+        border: none;
+        border-radius: 50%;
+        height: 5vh;
+        width: 80px;
+    }
+    .show-song-number h2 {
+        position: relative;
+        bottom: 12px;
+        letter-spacing: 3px;
+    }
+    .duration {
+    text-align: right;
+    position: relative;
+    right: 270px;
+    bottom: 230px;
+    }
+    #track-img {
+        padding-top: 20px;
+        height: 400px;
+        width: 100%;
+    }
+    .donation-div {
+        color: white;
+        position: relative;
+        bottom: 120px;
+        height: 3vh;
+        text-align: center;
+    }
+    .social-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+        border: none;
+        height: 20vh;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 100px;
+        display: flex; 
+    }
+    #socialBtn {
+        background: none;
+        border: none;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .social-img-one {
+        background: none;
+        position: relative;
+        right: 8px;
+        bottom: 2px;
+        height: 68px;
+        width: 75px;
+    }
+    .social-img-two {
+        background: none;
+        position: relative;
+        bottom: 6px;
+        right: 11px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .social-img-three {
+        background: none;
+        position: relative;
+        right: 9.2px;
+        bottom: 4px;
+        height: 76px;
+        width: 80px;
+    }
+}
+@media only screen and (min-width: 912px) and (min-height: 1368px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        background: url("the-divine-beings.png");
+        background-size: cover;
+        height: 20vh;
+        width: 100%;
+    }
+    .pray-for-peace {
+        display: none;
+    }
+    .main-div {
+        background: rgba(0, 0, 0, 0.596);
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 40%;
+        padding-left: 20px;
+    }
+    
+    .right {
+        position: relative;
+        bottom: 115px;
+        width: 100%;
+        text-align: right;
+    }
+    #title {
+        font-size: 40px;
+        padding: 10px;
+        bottom: 10px;
+        position: relative;
+    
+    }
+    #artist {
+        font-size: 40px;
+        padding: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .show-song-number {
+        color: white;
+        position: relative;
+        bottom: 170px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        padding-left: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .audio-controls {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-left: 300px;
+        position: relative;
+        bottom: 350px;
+    }
+    #pre,
+    #play,
+    #next,
+    #auto {
+        background: #190C4B; 
+        color: white;
+        border: none;
+        border-radius: 50%;
+        height: 5vh;
+        width: 80px;
+    }
+    .show-song-number h2 {
+        position: relative;
+        bottom: 12px;
+        letter-spacing: 3px;
+    }
+    .duration {
+    text-align: right;
+    position: relative;
+    right: 270px;
+    bottom: 220px;
+    }
+    #track-img {
+        padding-top: 20px;
+        height: 400px;
+        width: 100%;
+    }
+    .donation-div {
+        color: white;
+        position: relative;
+        bottom: 120px;
+        height: 3vh;
+        text-align: center;
+    }
+    .social-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+        border: none;
+        height: 20vh;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 100px;
+        display: flex; 
+    }
+    #socialBtn {
+        background: none;
+        border: none;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .social-img-one {
+        background: none;
+        position: relative;
+        right: 8px;
+        bottom: 2px;
+        height: 68px;
+        width: 75px;
+    }
+    .social-img-two {
+        background: none;
+        position: relative;
+        bottom: 6px;
+        right: 11px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .social-img-three {
+        background: none;
+        position: relative;
+        right: 9.2px;
+        bottom: 4px;
+        height: 76px;
+        width: 80px;
+    }
+} 
+@media only screen and (min-width: 1024px) and (min-height: 600px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        background: url("the-divine-beings.png");
+        background-size: cover;
+        height: 70vh;
+        width: 100%;
+    }
+    .pray-for-peace {
+        display: none;
+    }
+    .main-div {
+        background: rgba(0, 0, 0, 0.596);
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 40%;
+        padding-left: 20px;
+    }
+    
+    .right {
+        position: relative;
+        bottom: 115px;
+        width: 100%;
+        text-align: right;
+    }
+    #title {
+        font-size: 40px;
+        padding: 10px;
+        bottom: 10px;
+        position: relative;
+    
+    }
+    #artist {
+        font-size: 40px;
+        padding: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .show-song-number {
+        color: white;
+        position: relative;
+        bottom: 170px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        padding-left: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .audio-controls {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-left: 300px;
+        position: relative;
+        bottom: 350px;
+    }
+    #pre,
+    #play,
+    #next,
+    #auto {
+        background: #190C4B; 
+        color: white;
+        border: none;
+        border-radius: 50%;
+        height: 5vh;
+        width: 80px;
+    }
+    .show-song-number h2 {
+        position: relative;
+        bottom: 12px;
+        letter-spacing: 3px;
+    }
+    .duration {
+    text-align: right;
+    position: relative;
+    right: 290px;
+    bottom: 260px;
+    }
+    #track-img {
+        padding-top: 20px;
+        height: 400px;
+        width: 100%;
+    }
+    .donation-div {
+        color: white;
+        position: relative;
+        bottom: 120px;
+        height: 3vh;
+        text-align: center;
+    }
+    .social-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
+        border: none;
+        height: 30vh;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 100px;
+        display: flex; 
+    }
+    #socialBtn {
+        background: none;
+        border: none;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .social-img-one {
+        background: none;
+        position: relative;
+        right: 8px;
+        bottom: 2px;
+        height: 68px;
+        width: 75px;
+    }
+    .social-img-two {
+        background: none;
+        position: relative;
+        bottom: 6px;
+        right: 11px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .social-img-three {
+        background: none;
+        position: relative;
+        right: 9.2px;
+        bottom: 4px;
+        height: 76px;
+        width: 80px;
+    }
+}*/
+
+@media only screen and (min-width: 1280px) and (min-height: 800px) {
     body {
         margin-left: auto;
         margin-right: auto;
@@ -125,160 +1299,138 @@ html {
         height: 60vh;
         width: 100%;
     }
-    .social-section {
-        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
-        border: none;
-        height: 20vh;
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        padding-top: 100px;
-        display: flex;
-        
-    }
-}
-@media only screen and (min-width: 768px) and (min-height: 1024px) {
-    body {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    footer {
-        height: 12vh;
-    }
-    .social-section {
-        background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
-        border: none;
-        height: 20vh;
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        padding-top: 100px;
-        display: flex;
-        
-    }
-}
-@media only screen and (min-width: 820px) and (min-height: 1180px) {
-    body {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    header {
-        background: url("the-divine-beings.png");
-        background-size: cover;
-        height: 80vh;
-        width: 100%;
-    }
-    .main-div {
-        height: 40vh;
-    }
-    .duration {
-        text-align: right;
-        padding-right: 80px;
-        position: relative;
-        bottom: 150px;
-    }
-}
-@media only screen and (min-width: 900px) and (min-height: 1500px) {
-    body {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    header {
-        background: url("the-divine-beings.png");
-        background-size: cover;
-        height: 80vh;
-        width: 100%;
-    }
-    .main-div {
-        height: 30vh;
-    }
-    .duration {
-        text-align: right;
-        padding-right: 80px;
-        position: relative;
-        bottom: 50px;
-        }
-}
-@media only screen and (min-width: 1024px) and (min-height: 600px) {
-    body {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    header {
-        background: url("the-divine-beings.png");
-        background-size: cover;
-        height: 50vh;
-        width: 100%;
-    }
     .pray-for-peace {
         display: none;
     }
-    .donation-div {
-        padding-top: 280px;
-    }
-    .duration {
-        text-align: right;
-        position: relative;
-        right: 310px;
-        bottom: 250px;
-        }
-        .music-main {
-            height: 59.95vh;
-        }
-        .main-div {
-            height: 100vh;
-        }
-        .track-img {
-            height: 200px;
-        }
-        .social-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
-            border: none;
-            height: 45vh;
-            width: 100%;
-            text-align: center;
-            justify-content: center;
-            padding-top: 100px;
-            display: flex;
-            
-        }
-}
-
-@media only screen and (min-width: 1280px) and (min-height: 800px) {
-    body {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    header {
-        background: url("the-divine-beings.png");
-        background-size: cover;
-        height: 100vh;
-        width: 100%;
-    }
     .main-div {
+        background: rgba(0, 0, 0, 0.596);
         height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 40%;
+        padding-left: 20px;
+    }
+    
+    .right {
+        position: relative;
+        bottom: 115px;
+        width: 100%;
+        text-align: right;
+    }
+    #title {
+        font-size: 40px;
+        padding: 10px;
+        bottom: 10px;
+        position: relative;
+    
+    }
+    #artist {
+        font-size: 40px;
+        padding: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .show-song-number {
+        color: white;
+        position: relative;
+        bottom: 170px;
+        display: flex;
+        width: 100%;
+        height: 60px;
+        padding-left: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .audio-controls {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-left: 300px;
+        position: relative;
+        bottom: 350px;
+    }
+    #pre,
+    #play,
+    #next,
+    #auto {
+        background: #190C4B; 
+        color: white;
+        border: none;
+        border-radius: 50%;
+        height: 5vh;
+        width: 80px;
+    }
+    .show-song-number h2 {
+        position: relative;
+        bottom: 12px;
+        letter-spacing: 3px;
     }
     .duration {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 750px;
+    text-align: right;
+    position: relative;
+    right: 420px;
+    bottom: 230px;
+    }
+    #track-img {
+        padding-top: 20px;
+        height: 400px;
         width: 100%;
+    }
+    .donation-div {
+        color: white;
+        position: relative;
+        bottom: 120px;
+        height: 3vh;
+        text-align: center;
     }
     .social-section {
         background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
         border: none;
-        height: 40vh;
+        height: 30vh;
         width: 100%;
         text-align: center;
         justify-content: center;
         padding-top: 100px;
-        display: flex;
-        
+        display: flex; 
     }
-}
-@media only screen and (min-width: 1350px) and (min-height: 900px) {
+    #socialBtn {
+        background: none;
+        border: none;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .social-img-one {
+        background: none;
+        position: relative;
+        right: 8px;
+        bottom: 2px;
+        height: 68px;
+        width: 75px;
+    }
+    .social-img-two {
+        background: none;
+        position: relative;
+        bottom: 6px;
+        right: 11px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .social-img-three {
+        background: none;
+        position: relative;
+        right: 9.2px;
+        bottom: 4px;
+        height: 76px;
+        width: 80px;
+    }
+} 
+/*@media only screen and (min-width: 1350px) and (min-height: 900px) {
     body {
         margin-left: auto;
         margin-right: auto;
@@ -370,14 +1522,14 @@ html {
     footer {
         height: 30vh;
     }
-}
+}*/
 
 /*header {
     background: url("the-divine-beings.png");
     background-size: cover;
     height: 50vh;
     width: 100%;
-}*/
+}
 
 .landing-body {
     background-size: cover;
@@ -390,7 +1542,7 @@ html {
     bottom: 120px;
     height: 3vh;
     text-align: center;
-}
+}*/
 nav {
     width: 100%;
 }
@@ -420,9 +1572,9 @@ ul a {
     color: black;
 }
 
-body {
-    /*padding-left: 400px;
-    padding-right: 400px;*/
+/*body {
+    padding-left: 350px;
+    padding-right: 350px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -452,7 +1604,7 @@ body {
     right: 255px; 
 }*/
 
-#volume-icon {
+/*#volume-icon {
     color: white;
     position: relative;
     bottom: 97px;
@@ -464,28 +1616,7 @@ img {
     width: 60%;
 }
 
-#contactForm {
-    color: white;
-    width: 100%;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 35px;
-    line-height: 40px;
-    background: linear-gradient(black, rgba(0, 0, 0, 0.596));
-}
-
-.form-cta-div {
-    width: 100%;
-    text-align: center;
-}
-
-.contact-form-span {
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-}
-
-/*.social-section {
+.social-section {
     background: linear-gradient(rgba(0, 0, 0, 0.596), #190C4B);
     border: none;
     height: 30vh;
@@ -494,7 +1625,7 @@ img {
     justify-content: center;
     padding-top: 100px;
     display: flex;
-}*/
+}
 
 #socialBtn {
     background: none;
@@ -519,13 +1650,13 @@ h1 {
 
 footer {
     height: 1vh;
-}
+}*/
 
 .credits-div {
     text-align: center;
 }
 
-iframe {
+/*iframe {
     width: 300px;
 }
 
@@ -536,7 +1667,7 @@ main {
 
 .main-div {
     display: flex;
-}
+}*/
 
 .song-info-div {
     position: relative;
@@ -548,7 +1679,7 @@ main {
     color: white;
 }
 
-#title {
+/*#title {
     font-size: 40px;
     padding: 10px;
     bottom: 10px;
@@ -602,14 +1733,9 @@ main {
 }
 
 .duration {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 860px;
-    width: 100%;
-    /*text-align: right;
-    padding-right: 200px;
-    position: relative;
-    bottom: 100px;*/
+   position: relative;
+   bottom: 250px;
+   right: 370px;
 }
 
 .show-song-number h2 {
