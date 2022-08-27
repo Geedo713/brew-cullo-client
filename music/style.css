@@ -149,7 +149,7 @@ html {
         width: 80px;
     }
 }
-@media only screen and (min-width: 360px) and (min-height: 740px) {
+/*@media only screen and (min-width: 360px) and (min-height: 740px) {
     body {
         margin-left: auto;
         margin-right: auto;
@@ -290,9 +290,9 @@ html {
         height: 76px;
         width: 80px;
     }
-}
+}*/
 
-@media only screen and (min-width: 412px) and (min-height: 914px) {
+/*@media only screen and (min-width: 412px) and (min-height: 914px) {
     body {
         margin-left: auto;
         margin-right: auto;
@@ -434,7 +434,7 @@ html {
     }
 }
 
-@media only screen and (min-width: 470px) and (min-height: 800px) {
+/*@media only screen and (min-width: 470px) and (min-height: 800px) {
     body {
         margin-left: auto;
         margin-right: auto;
@@ -717,8 +717,8 @@ html {
         height: 76px;
         width: 80px;
     }
-}
-@media only screen and (min-width: 768px) and (min-height: 1024px) {
+}*/
+/*@media only screen and (min-width: 768px) and (min-height: 1024px) {
     body {
         margin-left: auto;
         margin-right: auto;
@@ -1002,7 +1002,7 @@ html {
         height: 76px;
         width: 80px;
     }
-}
+}*/
 @media only screen and (min-width: 912px) and (min-height: 1368px) {
     body {
         margin-left: auto;
@@ -1286,7 +1286,7 @@ html {
         height: 76px;
         width: 80px;
     }
-}*/
+}
 
 @media only screen and (min-width: 1280px) and (min-height: 800px) {
     body {
@@ -1430,7 +1430,7 @@ html {
         width: 80px;
     }
 } 
-/*@media only screen and (min-width: 1350px) and (min-height: 900px) {
+@media only screen and (min-width: 1350px) and (min-height: 900px) {
     body {
         margin-left: auto;
         margin-right: auto;
@@ -1522,7 +1522,7 @@ html {
     footer {
         height: 30vh;
     }
-}*/
+}
 
 /*header {
     background: url("the-divine-beings.png");
