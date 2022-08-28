@@ -74,12 +74,12 @@ html {
         margin-right: auto;
         width: 100%;
     }
-    /*header {
+    header {
         background: url("the-divine-beings.png");
         background-size: cover;
-        height: 20vh;
+        height: 30vh;
         width: 100%;
-    }*/
+    }
     #contactForm {
         height: 26.3vh;
     }
