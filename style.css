@@ -243,6 +243,18 @@ html {
         height: 30vh;
     }
 }
+@media only screen and (min-width: 912px) and (min-height: 1368px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        background: url("the-divine-beings.png");
+        background-size: cover;
+        height: 30vh;
+        width: 100%;
+    }
+}
 @media only screen and (min-width: 1024px) and (min-height: 600px) {
     body {
         padding-left: 200px;
@@ -488,10 +500,12 @@ main {
 }
 
 .social-img-one {
+    background: none;
     position: relative;
-    right: 5px;
+    right: 14px;
     bottom: 2px;
-    height: 68px;
+    height: 78px;
+    width: 80px;
 }
 
 .social-img-two {

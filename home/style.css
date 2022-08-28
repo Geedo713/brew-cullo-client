@@ -613,10 +613,12 @@ main {
 }
 
 .social-img-one {
+    background: none;
     position: relative;
-    right: 8px;
+    right: 11px;
     bottom: 2px;
-    height: 68px;
+    height: 78px;
+    width: 80px;
 }
 
 .social-img-two {
