@@ -74,7 +74,7 @@ let allTracks = [
     },
    {
          name: "War Wounds",
-         path: "War Wounds 2.mp3",
+         path: "War Wounds-Cullo prod.100kproductions.mp3",
          artist: "Cullo",
          img: "image1.jpeg"
    }
