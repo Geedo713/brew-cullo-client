@@ -28,7 +28,28 @@ html {
         justify-content: center;
         padding-top: 100px;
         display: flex;
-        
+    }
+
+    main {
+        text-align: center;
+    }
+
+    .panther-list {
+        text-align: center;
+        display: flex;
+    }
+
+    .panther-list li {
+        padding: 2px;
+    }
+    
+    .no-panther-list {
+        text-align: center;
+        display: flex;
+    }
+
+    section {
+        text-align: center;
     }
 } 
 @media only screen and (min-width: 360px) and (min-height: 740px) {
@@ -52,6 +73,24 @@ html {
         padding-top: 100px;
         display: flex;
     }
+
+    main {
+        text-align: center;
+    }
+
+    .panther-list {
+        text-align: center;
+        display: flex;
+    }
+    
+    .no-panther-list {
+        text-align: center;
+        display: flex;
+    }
+
+    section {
+        text-align: center;
+    }
 }
 @media only screen and (min-width: 375px) and (min-height: 667px) {
     body {
@@ -73,6 +112,24 @@ html {
         justify-content: center;
         padding-top: 100px;
         display: flex;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    .panther-list {
+        text-align: center;
+        display: flex;
+    }
+    
+    .no-panther-list {
+        text-align: center;
+        display: flex;
+    }
+
+    section {
+        text-align: center;
     }
 }
 @media only screen and (min-width: 412px) and (min-height: 914px) {
@@ -96,6 +153,24 @@ html {
         padding-top: 100px;
         display: flex;
 }
+
+main {
+    text-align: center;
+}
+
+.panther-list {
+    text-align: center;
+    display: flex;
+}
+
+.no-panther-list {
+    text-align: center;
+    display: flex;
+}
+
+section {
+    text-align: center;
+}
 }
 @media only screen and (min-width: 470px) and (min-height: 800px) {
     body {
@@ -116,6 +191,24 @@ html {
         padding-right: 200px;
         position: relative;
         bottom: 50px;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        .panther-list {
+            text-align: center;
+            display: flex;
+        }
+        
+        .no-panther-list {
+            text-align: center;
+            display: flex;
+        }
+
+        section {
+            text-align: center;
         }
 }
 @media only screen and (min-width: 540px) and (min-height: 720px) {
@@ -140,6 +233,24 @@ html {
         display: flex;
         
     }
+
+    main {
+        text-align: center;
+    }
+
+    .panther-list {
+        text-align: center;
+        display: flex;
+    }
+    
+    .no-panther-list {
+        text-align: center;
+        display: flex;
+    }
+
+    section {
+        text-align: center;
+    }
 }
 @media only screen and (min-width: 768px) and (min-height: 1024px) {
     body {
@@ -162,6 +273,24 @@ html {
         padding-top: 100px;
         display: flex;
         
+    }
+
+    main {
+        text-align: center;
+    }
+
+    .panther-list {
+        text-align: center;
+        display: flex;
+    }
+    
+    .no-panther-list {
+        text-align: center;
+        display: flex;
+    }
+
+    section {
+        text-align: center;
     }
 }
 @media only screen and (min-width: 820px) and (min-height: 1180px) {
@@ -186,6 +315,24 @@ html {
         display: flex;
         
     }
+
+    main {
+        text-align: center;
+    }
+
+    .panther-list {
+        text-align: center;
+        display: flex;
+    }
+    
+    .no-panther-list {
+        text-align: center;
+        display: flex;
+    }
+
+    section {
+        text-align: center;
+    }
 }
 @media only screen and (min-width: 900px) and (min-height: 1500px) {
     body {
@@ -208,6 +355,24 @@ html {
         padding-top: 100px;
         display: flex;
         
+    }
+
+    main {
+        text-align: center;
+    }
+
+    .panther-list {
+        text-align: center;
+        display: flex;
+    }
+    
+    .no-panther-list {
+        text-align: center;
+        display: flex;
+    }
+
+    section {
+        text-align: center;
     }
 }
 @media only screen and (min-width: 1024px) and (min-height: 600px) {
@@ -237,6 +402,24 @@ html {
             display: flex;
             
         }
+
+        main {
+            text-align: center;
+        }
+
+        .panther-list {
+            text-align: center;
+            display: flex;
+        }
+        
+        .no-panther-list {
+            text-align: center;
+            display: flex;
+        }
+
+        section {
+            text-align: center;
+        }
 }
 @media only screen and (min-width: 1280px) and (min-height: 800px) {
     body {
@@ -264,6 +447,24 @@ html {
             padding-top: 100px;
             display: flex;
             
+        }
+
+        main {
+            text-align: center;
+        }
+
+        .panther-list {
+            text-align: center;
+            display: flex;
+        }
+        
+        .no-panther-list {
+            text-align: center;
+            display: flex;
+        }
+
+        section {
+            text-align: center;
         }
 }
 @media only screen and (min-width: 1350px) and (min-height: 900px) {
@@ -293,6 +494,24 @@ html {
             display: flex;
             
         }
+
+        main {
+            text-align: center;
+        }
+
+        .panther-list {
+            text-align: center;
+            display: flex;
+        }
+        
+        .no-panther-list {
+            text-align: center;
+            display: flex;
+        }
+
+        section {
+            text-align: center;
+        }
 }
 @media only screen and (min-width: 1450px) and (min-height: 1000px) {
     body {
@@ -321,6 +540,24 @@ html {
             display: flex;
             
         }
+
+        main {
+            text-align: center;
+        }
+
+        .panther-list {
+            text-align: center;
+            display: flex;
+        }
+        
+        .no-panther-list {
+            text-align: center;
+            display: flex;
+        }
+
+        section {
+            text-align: center;
+        }
 }
 @media only screen and (min-width: 1750px) and (min-height: 1200px) {
     body {
@@ -348,6 +585,24 @@ html {
             padding-top: 100px;
             display: flex;
             
+        }
+
+        main {
+            text-align: center;
+        }
+
+        .panther-list {
+            text-align: center;
+            display: flex;
+        }
+        
+        .no-panther-list {
+            text-align: center;
+            display: flex;
+        }
+
+        section {
+            text-align: center;
         }
 }
 
@@ -432,12 +687,18 @@ h1 {
     text-align: center;
 }
 
-.without-panther {
-    padding-left: 80px;
+section {
+    text-align: center;
 }
 
-.with-panther {
-    padding-left: 90px;
+.panther-list {
+    text-align: center;
+    display: flex;
+}
+
+.no-panther-list {
+    text-align: center;
+    display: flex;
 }
 article {
     display: flex;
